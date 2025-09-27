@@ -1,0 +1,6 @@
+Starting >>> my_first_pkg
+Starting >>> xd_pkg
+Finished <<< my_first_pkg [0.54s]
+Finished <<< xd_pkg [0.54s]
+
+Summary: 2 packages finished [0.66s]
