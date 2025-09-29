@@ -1,0 +1,9 @@
+Node: /xd_turtle:
+Node: background_b
+Node: background_g
+Node: background_r
+Node: qos_overrides./parameter_events.publisher.depth
+Node: qos_overrides./parameter_events.publisher.durability
+Node: qos_overrides./parameter_events.publisher.history
+Node: qos_overrides./parameter_events.publisher.reliability
+Node: use_sim_time
