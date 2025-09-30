@@ -1,0 +1,38 @@
+[0.366s] Invoking command in '/ros2_ws/src/ex10': PYTHONPATH=/ros2_ws/build/ex10/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/ex10/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex10 build --build-base /ros2_ws/build/ex10/build install --record /ros2_ws/build/ex10/install.log --single-version-externally-managed install_data
+[0.462s] running egg_info
+[0.462s] creating ../../build/ex10/ex10.egg-info
+[0.462s] writing ../../build/ex10/ex10.egg-info/PKG-INFO
+[0.463s] writing dependency_links to ../../build/ex10/ex10.egg-info/dependency_links.txt
+[0.464s] writing entry points to ../../build/ex10/ex10.egg-info/entry_points.txt
+[0.464s] writing requirements to ../../build/ex10/ex10.egg-info/requires.txt
+[0.465s] writing top-level names to ../../build/ex10/ex10.egg-info/top_level.txt
+[0.465s] writing manifest file '../../build/ex10/ex10.egg-info/SOURCES.txt'
+[0.467s] reading manifest file '../../build/ex10/ex10.egg-info/SOURCES.txt'
+[0.468s] adding license file 'LICENSE'
+[0.469s] writing manifest file '../../build/ex10/ex10.egg-info/SOURCES.txt'
+[0.469s] running build
+[0.469s] running build_py
+[0.470s] creating /ros2_ws/build/ex10/build
+[0.470s] creating /ros2_ws/build/ex10/build/lib
+[0.471s] creating /ros2_ws/build/ex10/build/lib/ex10
+[0.471s] copying ex10/__init__.py -> /ros2_ws/build/ex10/build/lib/ex10
+[0.472s] copying ex10/text_to_cmd_vel.py -> /ros2_ws/build/ex10/build/lib/ex10
+[0.473s] running install
+[0.473s] running install_lib
+[0.474s] creating /ros2_ws/install/ex10/lib/python3.10/site-packages/ex10
+[0.474s] copying /ros2_ws/build/ex10/build/lib/ex10/__init__.py -> /ros2_ws/install/ex10/lib/python3.10/site-packages/ex10
+[0.475s] copying /ros2_ws/build/ex10/build/lib/ex10/text_to_cmd_vel.py -> /ros2_ws/install/ex10/lib/python3.10/site-packages/ex10
+[0.476s] byte-compiling /ros2_ws/install/ex10/lib/python3.10/site-packages/ex10/__init__.py to __init__.cpython-310.pyc
+[0.477s] byte-compiling /ros2_ws/install/ex10/lib/python3.10/site-packages/ex10/text_to_cmd_vel.py to text_to_cmd_vel.cpython-310.pyc
+[0.478s] running install_data
+[0.479s] creating /ros2_ws/install/ex10/share/ament_index
+[0.480s] creating /ros2_ws/install/ex10/share/ament_index/resource_index
+[0.480s] creating /ros2_ws/install/ex10/share/ament_index/resource_index/packages
+[0.480s] copying resource/ex10 -> /ros2_ws/install/ex10/share/ament_index/resource_index/packages
+[0.481s] copying package.xml -> /ros2_ws/install/ex10/share/ex10
+[0.482s] running install_egg_info
+[0.482s] Copying ../../build/ex10/ex10.egg-info to /ros2_ws/install/ex10/lib/python3.10/site-packages/ex10-0.0.0-py3.10.egg-info
+[0.491s] running install_scripts
+[0.500s] Installing text_to_cmd_vel script to /ros2_ws/install/ex10/lib/ex10
+[0.501s] writing list of installed files to '/ros2_ws/build/ex10/install.log'
+[0.515s] Invoked command in '/ros2_ws/src/ex10' returned '0': PYTHONPATH=/ros2_ws/build/ex10/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/ex10/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex10 build --build-base /ros2_ws/build/ex10/build install --record /ros2_ws/build/ex10/install.log --single-version-externally-managed install_data

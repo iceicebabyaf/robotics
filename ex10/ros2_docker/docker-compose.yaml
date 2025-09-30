@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  ros2:
+    build: .
+    container_name: ros2_humble
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./ros2_ws:/ros2_ws   # монтируем workspace с Mac внутрь контейнера

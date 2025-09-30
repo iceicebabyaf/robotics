@@ -1,0 +1,2 @@
+/ros2_ws/build/ex09_interface/rosidl_adapter/ex09_interface:msg/FullNameMessage.idl
+/ros2_ws/build/ex09_interface/rosidl_adapter/ex09_interface:srv/FullNameSumService.idl

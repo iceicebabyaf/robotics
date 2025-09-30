@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/ex10/ex10.egg-info/PKG-INFO
+../../build/ex10/ex10.egg-info/SOURCES.txt
+../../build/ex10/ex10.egg-info/dependency_links.txt
+../../build/ex10/ex10.egg-info/entry_points.txt
+../../build/ex10/ex10.egg-info/requires.txt
+../../build/ex10/ex10.egg-info/top_level.txt
+../../build/ex10/ex10.egg-info/zip-safe
+ex10/__init__.py
+ex10/text_to_cmd_vel.py
+resource/ex10
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

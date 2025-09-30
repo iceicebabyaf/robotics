@@ -1,0 +1,256 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /ros2_ws/build/ex09_interface
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  5%] Built target ament_cmake_python_copy_ex09_interface
+running egg_info
+creating ex09_interface.egg-info
+writing ex09_interface.egg-info/PKG-INFO
+writing dependency_links to ex09_interface.egg-info/dependency_links.txt
+writing top-level names to ex09_interface.egg-info/top_level.txt
+writing manifest file 'ex09_interface.egg-info/SOURCES.txt'
+reading manifest file 'ex09_interface.egg-info/SOURCES.txt'
+writing manifest file 'ex09_interface.egg-info/SOURCES.txt'
+[  5%] Built target ament_cmake_python_build_ex09_interface_egg
+[  5%] Built target ex09_interface__cpp
+[ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 17%] [32mBuilding C object CMakeFiles/ex09_interface__rosidl_generator_c.dir/rosidl_generator_c/ex09_interface/msg/detail/full_name_message__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/ex09_interface__rosidl_generator_c.dir/rosidl_generator_c/ex09_interface/srv/detail/full_name_sum_service__functions.c.o[0m
+[ 20%] [32m[1mLinking C shared library libex09_interface__rosidl_generator_c.so[0m
+[ 20%] Built target ex09_interface__rosidl_generator_c
+[ 25%] [32mBuilding CXX object CMakeFiles/ex09_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ex09_interface/srv/full_name_sum_service__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/ex09_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ex09_interface/msg/full_name_message__type_support.cpp.o[0m
+[ 33%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 33%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/ex09_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ex09_interface/msg/detail/full_name_message__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/ex09_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ex09_interface/srv/detail/full_name_sum_service__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/ex09_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ex09_interface/msg/detail/dds_fastrtps/full_name_message__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/ex09_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ex09_interface/srv/detail/dds_fastrtps/full_name_sum_service__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/ex09_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/ex09_interface/srv/full_name_sum_service__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/ex09_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/ex09_interface/msg/full_name_message__type_support.cpp.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/ex09_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ex09_interface/msg/detail/full_name_message__type_support.c.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/ex09_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ex09_interface/srv/detail/full_name_sum_service__type_support.c.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/ex09_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ex09_interface/msg/detail/full_name_message__type_support_c.cpp.o[0m
+[ 61%] [32m[1mLinking CXX shared library libex09_interface__rosidl_typesupport_c.so[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/ex09_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ex09_interface/srv/detail/full_name_sum_service__type_support_c.cpp.o[0m
+[ 61%] Built target ex09_interface__rosidl_typesupport_c
+[ 64%] [32m[1mLinking CXX shared library libex09_interface__rosidl_typesupport_cpp.so[0m
+[ 66%] [32m[1mLinking C shared library libex09_interface__rosidl_typesupport_introspection_c.so[0m
+[ 66%] Built target ex09_interface__rosidl_typesupport_cpp
+[ 66%] Built target ex09_interface__rosidl_typesupport_introspection_c
+[ 69%] [32m[1mLinking CXX shared library libex09_interface__rosidl_typesupport_introspection_cpp.so[0m
+[ 71%] [32m[1mLinking CXX shared library libex09_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 71%] Built target ex09_interface__rosidl_typesupport_introspection_cpp
+[ 71%] Built target ex09_interface__rosidl_typesupport_fastrtps_cpp
+[ 74%] [32m[1mLinking CXX shared library libex09_interface__rosidl_typesupport_fastrtps_c.so[0m
+[ 74%] Built target ex09_interface__rosidl_typesupport_fastrtps_c
+[ 74%] Built target ex09_interface
+[ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 76%] Built target ex09_interface__py
+[ 82%] [32mBuilding C object CMakeFiles/ex09_interface__rosidl_generator_py.dir/rosidl_generator_py/ex09_interface/msg/_full_name_message_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/ex09_interface__rosidl_generator_py.dir/rosidl_generator_py/ex09_interface/srv/_full_name_sum_service_s.c.o[0m
+[ 84%] [32m[1mLinking C shared library rosidl_generator_py/ex09_interface/libex09_interface__rosidl_generator_py.so[0m
+[ 84%] Built target ex09_interface__rosidl_generator_py
+[ 92%] [32mBuilding C object CMakeFiles/ex09_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ex09_interface/_ex09_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/ex09_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ex09_interface/_ex09_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/ex09_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ex09_interface/_ex09_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/ex09_interface/ex09_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/ex09_interface/ex09_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/ex09_interface/ex09_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[100%] Built target ex09_interface__rosidl_typesupport_c__pyext
+[100%] Built target ex09_interface__rosidl_typesupport_introspection_c__pyext
+[100%] Built target ex09_interface__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Installing: /ros2_ws/install/ex09_interface/share/ament_index/resource_index/rosidl_interfaces/ex09_interface
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/detail
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/detail/full_name_message__functions.h
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/detail/full_name_message__type_support.h
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/detail/full_name_message__struct.h
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/detail/full_name_message__functions.c
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/full_name_message.h
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/detail
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/detail/full_name_sum_service__type_support.h
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/detail/full_name_sum_service__functions.h
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/detail/full_name_sum_service__struct.h
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/detail/full_name_sum_service__functions.c
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/full_name_sum_service.h
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/environment/library_path.sh
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/environment/library_path.dsv
+-- Installing: /ros2_ws/install/ex09_interface/lib/libex09_interface__rosidl_generator_c.so
+-- Set runtime path of "/ros2_ws/install/ex09_interface/lib/libex09_interface__rosidl_generator_c.so" to ""
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/detail
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/detail/full_name_message__rosidl_typesupport_fastrtps_c.h
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/detail
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/detail/full_name_sum_service__rosidl_typesupport_fastrtps_c.h
+-- Installing: /ros2_ws/install/ex09_interface/lib/libex09_interface__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/ros2_ws/install/ex09_interface/lib/libex09_interface__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/detail
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/detail/full_name_message__rosidl_typesupport_introspection_c.h
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/detail/full_name_message__type_support.c
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/detail
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/detail/full_name_sum_service__rosidl_typesupport_introspection_c.h
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/detail/full_name_sum_service__type_support.c
+-- Installing: /ros2_ws/install/ex09_interface/lib/libex09_interface__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/ros2_ws/install/ex09_interface/lib/libex09_interface__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /ros2_ws/install/ex09_interface/lib/libex09_interface__rosidl_typesupport_c.so
+-- Set runtime path of "/ros2_ws/install/ex09_interface/lib/libex09_interface__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/detail
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/detail/full_name_message__traits.hpp
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/detail/full_name_message__builder.hpp
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/detail/full_name_message__struct.hpp
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/detail/full_name_message__type_support.hpp
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/full_name_message.hpp
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/full_name_sum_service.hpp
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/detail
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/detail/full_name_sum_service__traits.hpp
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/detail/full_name_sum_service__builder.hpp
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/detail/full_name_sum_service__struct.hpp
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/detail/full_name_sum_service__type_support.hpp
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/detail
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/detail/full_name_message__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/detail/dds_fastrtps
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/detail
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/detail/dds_fastrtps
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/detail/full_name_sum_service__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /ros2_ws/install/ex09_interface/lib/libex09_interface__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/ros2_ws/install/ex09_interface/lib/libex09_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/detail
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/detail/full_name_message__type_support.cpp
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/msg/detail/full_name_message__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv
+-- Up-to-date: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/detail
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/detail/full_name_sum_service__type_support.cpp
+-- Installing: /ros2_ws/install/ex09_interface/include/ex09_interface/ex09_interface/srv/detail/full_name_sum_service__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /ros2_ws/install/ex09_interface/lib/libex09_interface__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/ros2_ws/install/ex09_interface/lib/libex09_interface__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /ros2_ws/install/ex09_interface/lib/libex09_interface__rosidl_typesupport_cpp.so
+-- Set runtime path of "/ros2_ws/install/ex09_interface/lib/libex09_interface__rosidl_typesupport_cpp.so" to ""
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/environment/pythonpath.sh
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/environment/pythonpath.dsv
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface-0.0.0-py3.10.egg-info
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/libex09_interface__rosidl_generator_py.so
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/msg
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/msg/_full_name_message_s.c
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/msg/_full_name_message.py
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/msg/__init__.py
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/_ex09_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/ex09_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/__init__.py
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/ex09_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/ex09_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/_ex09_interface_s.ep.rosidl_typesupport_c.c
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/_ex09_interface_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/srv
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/srv/_full_name_sum_service_s.c
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/srv/__init__.py
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/srv/_full_name_sum_service.py
+Listing '/ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface'...
+Compiling '/ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/__init__.py'...
+Listing '/ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/msg'...
+Compiling '/ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/msg/__init__.py'...
+Compiling '/ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/msg/_full_name_message.py'...
+Listing '/ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/srv'...
+Compiling '/ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/srv/__init__.py'...
+Compiling '/ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/srv/_full_name_sum_service.py'...
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/ex09_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Set runtime path of "/ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/ex09_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/ex09_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Set runtime path of "/ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/ex09_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+-- Installing: /ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/ex09_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Set runtime path of "/ros2_ws/install/ex09_interface/local/lib/python3.10/dist-packages/ex09_interface/ex09_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+-- Installing: /ros2_ws/install/ex09_interface/lib/libex09_interface__rosidl_generator_py.so
+-- Set runtime path of "/ros2_ws/install/ex09_interface/lib/libex09_interface__rosidl_generator_py.so" to ""
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/msg/FullNameMessage.idl
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/srv/FullNameSumService.idl
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/msg/FullNameMessage.msg
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/srv/FullNameSumService.srv
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/srv/FullNameSumService_Request.msg
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/srv/FullNameSumService_Response.msg
+-- Installing: /ros2_ws/install/ex09_interface/share/ament_index/resource_index/package_run_dependencies/ex09_interface
+-- Installing: /ros2_ws/install/ex09_interface/share/ament_index/resource_index/parent_prefix_path/ex09_interface
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/environment/ament_prefix_path.sh
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/environment/ament_prefix_path.dsv
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/environment/path.sh
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/environment/path.dsv
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/local_setup.bash
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/local_setup.sh
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/local_setup.zsh
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/local_setup.dsv
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/package.dsv
+-- Installing: /ros2_ws/install/ex09_interface/share/ament_index/resource_index/packages/ex09_interface
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/export_ex09_interface__rosidl_generator_cExport.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/export_ex09_interface__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/export_ex09_interface__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/export_ex09_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/ex09_interface__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/ex09_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/ex09_interface__rosidl_typesupport_cExport.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/ex09_interface__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/export_ex09_interface__rosidl_generator_cppExport.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/export_ex09_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/export_ex09_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/ex09_interface__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/ex09_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/ex09_interface__rosidl_typesupport_cppExport.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/ex09_interface__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/export_ex09_interface__rosidl_generator_pyExport.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/export_ex09_interface__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/rosidl_cmake-extras.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/ex09_interfaceConfig.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/cmake/ex09_interfaceConfig-version.cmake
+-- Installing: /ros2_ws/install/ex09_interface/share/ex09_interface/package.xml

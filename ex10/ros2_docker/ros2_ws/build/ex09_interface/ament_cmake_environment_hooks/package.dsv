@@ -1,0 +1,4 @@
+source;share/ex09_interface/local_setup.bash
+source;share/ex09_interface/local_setup.dsv
+source;share/ex09_interface/local_setup.sh
+source;share/ex09_interface/local_setup.zsh

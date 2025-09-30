@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ex09_interface__py",
+		"source" : "/ros2_ws/build/ex09_interface/ex09_interface__py"
+	}
+}

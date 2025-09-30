@@ -1,0 +1,3 @@
+[console_scripts]
+xd_node = xd_pkg.xd_node:main
+

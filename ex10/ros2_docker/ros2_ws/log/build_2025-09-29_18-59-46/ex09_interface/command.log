@@ -1,0 +1,2 @@
+Invoking command in '/ros2_ws/build/ex09_interface': CMAKE_PREFIX_PATH=/root/ros2_ws/install/xd_pkg:/root/ros2_ws/install/my_first_pkg:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/ex09_interface -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/ex09_interface
+Invoked command in '/ros2_ws/build/ex09_interface' returned '1': CMAKE_PREFIX_PATH=/root/ros2_ws/install/xd_pkg:/root/ros2_ws/install/my_first_pkg:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/ex09_interface -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/ex09_interface
