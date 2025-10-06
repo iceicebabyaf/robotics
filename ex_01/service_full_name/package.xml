@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>service_full_name</name>
+  <version>0.0.0</version>
+  <description>Lab 3 task 1 concat names</description>
+  <maintainer email="halfhpp@gmail.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>ex09_interface</exec_depend>
+  <exec_depend>rosidl_runtime_py</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
